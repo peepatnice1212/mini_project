@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CDS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/beforehome.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <li class="logo">
+        <img src="./img/logo.png" />
+      </li>
+      <li>
+        <a href="./login-logout/formlogin.php"
+          ><input type="button" class="buttons" value="เข้าสู่ระบบ"
+        /></a>
+      </li>
+    </div>
+    <div class="main">
+      <div class="area">
+        <h1>ภาพยนตร์ อนิเมะ เพลง<br />และความบันเทิงอีกมากมาย</h1>
+        <h3>เช่าผ่านทางออนไลน์ได้แล้ววันนี้</h3>
+        <form action="./register/formregister.php" method="post">
+          <div class="search">
+            <input
+              type="email"
+              class="box"
+              name="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              placeholder="ที่อยู่อีเมล"
+            />
+            <input type="submit" class="start" value="เริ่มต้นใช้งาน" />
+          </div>
+        </form>
+        <h4>ป้อนอีเมลเพื่อสร้างหรือเริ่มต้นการเป็นสมาชิกอีกครั้ง</h4>
+      </div>
+    </div>
+  </body>
+</html>
