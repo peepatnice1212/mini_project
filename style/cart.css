@@ -1,0 +1,71 @@
+.buttonchoose {
+  font-size: 1.5em;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.buttonchoose::before {
+  content: "\f04a";
+  color: #f1f1f1;
+  font-family: FontAwesome;
+}
+.buttonchoose:hover {
+  text-decoration: underline;
+}
+
+table,
+th,
+tr,
+td {
+  font-size: large;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.centar {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.inp {
+  font-size: large;
+}
+
+.buttoninp {
+  margin-left: 80px;
+  margin-right: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.buttoninp:hover,
+.butdel:hover {
+  color: red;
+}
+
+.butdel {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.buttonaccept,
+.buttonaccept > a {
+  font-size: 1.5em;
+  color: whitesmoke;
+  text-decoration: none;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+.buttonaccept > a {
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.buttonaccept > a:hover {
+  color: red;
+  border: 6px solid white;
+}

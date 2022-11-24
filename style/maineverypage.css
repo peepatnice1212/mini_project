@@ -1,0 +1,176 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 3em;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+nav {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav > a:hover {
+  background-color: darkred;
+}
+
+nav > a.active {
+  background-color: darkred;
+}
+
+.dropbtn {
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  min-width: 100px;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.icon::after {
+  content: "\f0d7";
+  color: #f1f1f1;
+  font-family: FontAwesome;
+}
+
+.logo > img {
+  width: 180px;
+}
+
+.centerpayment {
+  margin-top: 90px;
+}
+
+.centerpayment > p {
+  text-align: center;
+}
+
+.head {
+  margin-top: 60px;
+}
+
+#result {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+@media (max-width: 640px) {
+  nav > a {
+    display: block;
+  }
+
+  .dropbtn {
+    display: block;
+  }
+
+  nav > .dropdown {
+    margin-right: 30%;
+    margin-left: 30%;
+    position: static;
+  }
+}
+
+@media (min-width: 640.1px) and (max-width: 1024px) {
+  nav > a {
+    display: block;
+  }
+
+  .dropbtn {
+    display: block;
+  }
+
+  nav > .dropdown {
+    margin-right: 30%;
+    margin-left: 30%;
+    position: static;
+  }
+}
+
+/* @media (max-width: 1122px) {
+  nav > a {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+} */
+
+@media (max-width: 1431px) {
+  nav > a {
+    display: block;
+  }
+
+  .dropbtn {
+    display: block;
+  }
+
+  nav > .dropdown {
+    margin-right: 30%;
+    margin-left: 30%;
+    position: static;
+  }
+}
+
+.nice::after {
+  content: "\f07a";
+  color: #f1f1f1;
+  font-family: FontAwesome;
+}

@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  display: flex;
+  /* font-family: 'Kanit', sans-serif; */
+  background-color: rgba(8, 8, 8, 0.7);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  min-height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  align-self: center;
+}
+
+.navbar li {
+  margin: 0 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar li:nth-child(2) {
+  margin-top: -10px;
+  margin-right: 70px;
+}
+
+.logo img {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 50px;
+}
+.buttons {
+  background-color: #e50914;
+  padding: 7px 17px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+}
+.main {
+  width: 100%;
+  margin-top: -100px;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  min-height: 1024px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+.sqare {
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  padding: 100px;
+  border: 1px solid none;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(21, 19, 19, 0.8));
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.sqare > div > p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.box {
+  padding: 15px;
+  width: 300px;
+  font-size: 15px;
+  margin-top: 20px;
+  background-color: lightgray;
+  color: black;
+  border-radius: 5px;
+}
+.data {
+  margin-top: 20px;
+}
+
+input::placeholder {
+  color: grey;
+}
+
+.start {
+  width: 335px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.eyes {
+  display: inline-flex;
+}
+
+#togglePassword {
+  margin-left: -55px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+@media (min-width: 640.01px) and (max-width: 1024px) {
+  .buttons {
+    color: blue;
+    width: 115%;
+  }
+
+  .sqare {
+    width: 250px;
+    font-size: 35px;
+  }
+  .box {
+    width: 100%;
+    font-size: 15px;
+  }
+  #password {
+    width: 250px;
+  }
+  #togglePassword {
+    margin-left: -50px;
+    margin-top: 28px;
+  }
+}
+
+@media (max-width: 640px) {
+  .box {
+    width: 120%;
+    padding: 1px;
+    min-height: 45px;
+    font-size: 13px;
+  }
+
+  .buttons {
+    width: 125%;
+  }
+  .sqare {
+    font-size: 30px;
+    width: 200px;
+  }
+  #password {
+    width: 240px;
+  }
+  #togglePassword {
+    margin-left: -40px;
+    margin-top: 30px;
+  }
+}

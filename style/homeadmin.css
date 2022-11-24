@@ -1,0 +1,62 @@
+table {
+  border: 2px solid white;
+  margin-bottom: 50px;
+}
+
+tr,
+th,
+td {
+  border: 2px solid white;
+  padding: 20px;
+  text-align: center;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.texts {
+  margin-top: 50px;
+  font-size: 2em;
+  text-align: center;
+}
+
+p,
+p > input {
+  font-size: larger;
+}
+
+.form {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form > a {
+  cursor: pointer;
+  font-size: 3em;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.form > a:hover {
+  color: red;
+}
+
+.scrolltable {
+  overflow-x: scroll;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav > ul > li > a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: larger;
+}

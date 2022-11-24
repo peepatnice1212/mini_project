@@ -1,0 +1,91 @@
+.undernavsearch {
+  text-align: center;
+  margin-top: 50px;
+  font-size: larger;
+}
+
+.butt {
+  margin-left: 2%;
+  width: 20%;
+  font-size: large;
+}
+
+.buttonn {
+  width: 40px;
+  height: 28px;
+  cursor: pointer;
+}
+
+table,
+tr {
+  text-align: center;
+  width: 100%;
+}
+
+th {
+  height: 100px;
+}
+
+td {
+  padding: 50px;
+}
+
+.managetable {
+  overflow-x: scroll;
+}
+
+@media (max-width: 1754px) {
+  table,
+  tr {
+    width: 130%;
+  }
+}
+
+@media (max-width: 1353px) {
+  table,
+  tr {
+    width: 150%;
+  }
+}
+
+@media (max-width: 1175px) {
+  table,
+  tr {
+    width: 200%;
+  }
+}
+
+@media (max-width: 884px) {
+  table,
+  tr {
+    width: 250%;
+  }
+}
+
+@media (max-width: 711px) {
+  table,
+  tr {
+    width: 300%;
+  }
+}
+
+@media (max-width: 595px) {
+  table,
+  tr {
+    width: 350%;
+  }
+}
+
+@media (max-width: 512px) {
+  table,
+  tr {
+    width: 400%;
+  }
+}
+
+@media (max-width: 450px) {
+  table,
+  tr {
+    width: 450%;
+  }
+}
